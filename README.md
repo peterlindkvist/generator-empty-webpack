@@ -9,9 +9,18 @@
 1. Git clone the project
 2. cd into the project
 3. run 'npm install' from the terminal
-4. install webpack and webpack-dev-server globally:
-```
-npm install webpack-dev-server -g
-npm install webpack -g
-```
 
+
+## Usage
+
+##### Run the devserver at port 3000
+
+    npm start
+
+##### Build js for production
+
+    npm run build
+
+##### Serve the folder, including build/bundle.js, with a simple static server to port 3000
+
+    npm run static-server
